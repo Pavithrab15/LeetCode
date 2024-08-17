@@ -1,6 +1,7 @@
 class Solution {
   public String shortestPalindrome(String s) {
-     String t = new StringBuilder(s).reverse().toString();
+
+     StringBuilder t = new StringBuilder(s).reverse();
 
     for (int i = 0; i < t.length(); i++)
       if (s.startsWith(t.substring(i)))
