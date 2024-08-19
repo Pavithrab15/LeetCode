@@ -23,6 +23,8 @@ class Solution {
         }
         if(list1==null)
             return list2;
+        else{
         return list1;
+        }
     }
 }
